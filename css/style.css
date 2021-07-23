@@ -202,6 +202,12 @@ a {
   padding: 10px;
 }
 @media only screen and (max-width: 700px) {
+  .nav-items {
+    display: none;
+  }
+  .header-titel h1 {
+    font-size: 30px;
+  }
   .header-items {
     flex-direction: column;
     row-gap: 25px;
